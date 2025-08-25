@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nanda Vihari Mylavarabotla Portfolio</title>
+  <link rel="icon" type="image/jpeg" href="Images/favicon.jpeg" />
+  <link rel="stylesheet" href="s1.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q3MEBPKLD3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Q3MEBPKLD3');
+  </script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="header-content">
+      <h1 class="typing-text">
+        <span class="letter">N</span>
+        <span class="letter">a</span>
+        <span class="letter">n</span>
+        <span class="letter">d</span>
+        <span class="letter">a</span>
+        <span class="letter">&nbsp;</span>
+        <span class="letter">V</span>
+        <span class="letter">i</span>
+        <span class="letter">h</span>
+        <span class="letter">a</span>
+        <span class="letter">r</span>
+        <span class="letter">i</span>
+      </h1>
+      <p><span id="role-rotator"></span></p>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <button id="hamburger-menu" aria-label="Open navigation" style="display:none;">
+      <span></span><span></span><span></span>
+    </button>
+    <ul id="nav-links">
+      <li><a href="#about" class="nav-link" data-section="about">About</a></li> 
+      <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+      <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+      <li><a href="#education" class="nav-link" data-section="education">Education</a></li>
+      <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+      <li><a href="#resume" class="nav-link" data-section="resume">Resume</a></li>
+      <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+    </ul>
+    <div id="mobile-nav" style="display:none;">
+      <a href="#about" class="nav-link" data-section="about">About</a>
+      <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+      <a href="#experience" class="nav-link" data-section="experience">Experience</a>
+      <a href="#education" class="nav-link" data-section="education">Education</a>
+      <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+      <a href="#resume" class="nav-link" data-section="resume">Resume</a>
+      <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- About Section -->
+    <!-- <h2>About Me</h2> -->
+    <section id="about" class="section">
+      <h2>About Me</h2>
+
+      <div class="about-container">
+        <div class="about-photo">
+          <img src="Static/myphoto.jpeg" alt="Nanda Vihari profile photo" /> 
+        </div>
+        <div class="about-text">
+          <br>
+          <br>
+          <p>
+            I hold a Master’s degree in Data Science from California State University, East Bay, with expertise in machine learning, data analysis, and AI-driven solutions
+          </p>
+          <p>
+            With professional experience in building ML models, data pipelines, and deploying AI applications, I enjoy solving real-world problems through data and technology.
+          </p>
+          <p>
+            Passionate about Generative AI, NLP, and computer vision, I continuously explore innovative ways to create impactful solutions.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+
+      <a href="https://github.com/sainandavihari/NLP-and-DL/blob/main/Multi%20Class%20Classification/Fruits%20Classification/Fruits%20Classification.ipynb" target="_blank" class="project-card project-link">
+        <h3>Fruits Classification using CNN </h3>
+        <p class="project-summary">Built a CNN model using TensorFlow and Keras to detect variety of fruits</p>
+        <p class="project-tech"><strong>Tech Stack:</strong>  Google Colab, Python, Tensorflow, Keras , Matplotlib , OpenCV</p>
+        <ul>
+          <li>Built a CNN model using TensorFlow & Keras to classify fruit varieties with over 85% accuracy.</li>
+          <li>Processed and fine-tuned real-time image data using Keras to improve model accuracy.</li>
+          <li>Applied convolution, pooling, and ANN layers to enhance performance in computer vision tasks.</li>
+        </ul>
+      </a>
+
+      <a href="https://github.com/sainandavihari/AI/blob/main/Stable%20diffusion/Frontend%20gradio.png" target="_blank" class="project-card project-link">
+        <h3>Text-to-Image Generation Application using Stable Diffusion </h3>
+        <p class="project-summary">Built a text-to-image app using Stable Diffusion and Gradio, generating high-quality images in seconds</p>
+        <p class="project-tech"><strong>Tech Stack:</strong> Hugging Face, Google Colab, Gradio, Python,Stable diffusion pipeline </p>
+        <ul>
+          <li>Built a text-to-image app using Stable Diffusion 2.0 and Gradio.</li>
+          <li>Deployed Hugging Face pre-trained model on Google Colab for high-quality image generation.</li>
+          <li>Created a Generative AI app that turns text into images in under 10 seconds, improving user experience.</li>
+        </ul>
+      </a> 
+      
+
+      <a href="https://github.com/sainandavihari/AI/blob/main/Text%20Generation%20using%20LLM/Text%20Generation%20App.jpg" target="_blank" class="project-card project-link">
+        <h3>Text Generation App using Gemini AI</h3>
+        <p class="project-summary">Built a Streamlit app using Google’s Gemini API for fast and accurate text generation.</p>
+        <p class="project-tech"><strong>Tech Stack:</strong> Streamlit, Python, Gemini LLM ,Generative AI</p>
+        <ul>
+          <li>​​Built a Streamlit-based text generation app using Google’s Gemini API, reducing manual response time by 40%.</li>
+          <li>Automated training and deployment with Gemini 2.0 Flash, achieving 90% accuracy without fine-tuning.</li>
+          <li>Optimized prompt engineering strategies, reducing ambiguous outputs by 50% and maintaining 95% user satisfaction.</li>
+        </ul>
+      </a>
+
+        <a href="https://github.com/sainandavihari/Machine-Learning/blob/main/Telecom%20Customer%20Churn%20Prediction/customer%20churn%20pred%20project.ipynb" target="_blank" class="project-card project-link">
+        <h3>Telecom Customer Churn Prediction</h3>
+        <p class="project-summary">Developed and deployed a ML model with data preprocessing ,achieving accurate predictions with improved performance.</p>
+        <p class="project-tech"><strong>Tech Stack:</strong>Python, NumPy, Pandas, Matplotlib, Seaborn, XGBoost, Random Forest, Decision Tree, Streamlit</p>
+        <ul>
+          <li>Performed EDA and balanced churn data using SMOTE, improving model accuracy by 20%.</li>
+          <li>Built a preprocessing pipeline and tested multiple regression models for better prediction results.</li>
+          <li>Deployed the optimized model with pickle, boosting performance and prediction speed by 20%.</li>
+        </ul>
+      </a>
+
+        <a href="https://github.com/sainandavihari/Machine-Learning/tree/main/House%20Purchase%20Prediction" target="_blank" class="project-card project-link">
+        <h3>US House Price Prediction</h3>
+        <p class="project-summary">Developed and deployed a ML model with data preprocessing ,achieving accurate predictions with improved performance.</p>
+        <p class="project-tech"><strong>Tech Stack:</strong>Python, NumPy, Pandas, Matplotlib, Seaborn, ml models ,flask, statistics</p>
+        <ul>
+          <li>Developed a Flask web app for predicting U.S. house prices with end-to-end integration using pickle serialization.</li>
+          <li>Built and optimized regression pipeline to maximize R squared value and minimize the error.</li>
+          <li>Deployed optimized model achieving 10% faster performance with improved prediction accuracy.</li>
+        </ul>
+      </a>
+
+
+      <a href="https://github.com/sainandavihari/Power-BI/blob/main/Incident%20Dashboard/Dashboard.png" target="_blank" class="project-card project-link">
+        <h3>IT Company Incident data Analysis</h3>
+        <p class="project-summary">Built interactive Power BI dashboards using real-time ServiceNow data to track incident impacts and closure rates across teams.</p>
+        <p class="project-tech"><strong>Tech Stack:</strong>Power BI, Excel </p>
+        <ul>
+          <li>Integrated real-time ServiceNow data into Power BI to build interactive dashboards and reports.</li>
+          <li>Designed impactful visualizations (stacked bar charts, pivot tables) to highlight incident impacts across teams.</li>
+          <li>Implemented DAX metrics and date slicers for dynamic tracking of incident closure rates and trends.</li>
+        </ul>
+      </a>
+
+
+
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+      <h2>Experience</h2>
+      <div class="experience-container">
+
+        <!-- Left Sidebar -->
+        <div class="experience-sidebar">
+          <ul class="role-list">
+            <li class="role-item active">Data Analyst</li>
+          
+          </ul>
+        </div>
+
+        <!-- Right Content -->
+        <div class="experience-details">
+
+          <!-- Data Engineer -->
+          <div class="experience-content active">
+            <div class="company-logo-name">
+              <img src="Static/logo.png" alt="CAPG logo" class="company-logo" />
+              <h3 class="company">Capgemini (India)</h3>
+            </div>
+            <div class="role-date">
+              <!-- <span class="role-title">Data Analytics and Engineering Associate</span> -->
+              <span class="date">Mar 2022 – Dec 2023</span>
+            </div>
+            <hr class="divider">
+            <ul class="bullet-list">
+              <li>Designed and deployed ML models for anomaly detection and time-series forecasting, improving prediction accuracy by 15% and reducing false positives by 20%, which minimized manual review efforts and increased operational efficiency.</li>
+              <li>Engineered scalable ETL/data pipelines to preprocess 10M+ structured and unstructured records daily, reducing data preparation time by 30% and enabling faster ML model training and deployment.</li>
+              <li>Collaborated with cross-functional teams to deliver AI/ML solutions aligned with business goals, resulting in 3 successful production deployments and improving decision-making speed by 25% through clear communication of insights to both technical and non-technical stakeholders.</li>
+    
+            </ul>
+          </div>
+
+         
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <div class="education-container">
+
+        <!-- Left Column -->
+        <div class="education-sidebar">
+          <ul class="degree-list">
+            <li class="degree-item active">Masters</li>
+            <li class="degree-item">Bachelors</li>
+          </ul>
+        </div>
+
+        <!-- Right Content -->
+        <div class="education-details">
+
+          <!-- Master of Science -->
+          <div class="education-content active">
+            <div class="company-logo-name">
+              <img src="Static/csueb_logo.png" alt="CSUEB logo" class="company-logo" />
+              <h3 class="institution">California State University</h3>
+            </div>
+            <div class="degree-info">
+              <span class="degree-title">Statistics</span>
+              <span class="degree-date">Dec 2025</span>
+            </div>
+            <hr class="divider">
+            <ul class="course-list">
+              <li>Statistics</li>
+              <li>Data Visualization</li>
+              <li>Machine Learning</li>
+              <li>Natural Language Processing</li>
+              <li>Deep Learning And Neural Networks</li>
+              <li>AI</li>
+            </ul>
+          </div>
+
+          <!-- Bachelor of Engineering -->
+          <div class="education-content">
+            <div class="company-logo-name">
+              <img src="Static/JNTU.jpeg" alt="JNTU logo" class="company-logo" />
+              <h3 class="institution">Jawaharlal Nehru Technological University </h3>
+            </div>
+            <div class="degree-info">
+              <span class="degree-title">Electronics and Communication Engineering</span>
+              <span class="degree-date">May 2022</span>
+            </div>
+            <hr class="divider">
+            <ul class="course-list">
+              <li>Python</li>
+              <li>Java</li>
+              <li>Statistics</li>
+              <li>Data Structures & Algorithms</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Programming Languages</h3>
+          <ul>
+            <li>Python</li>
+            <li>R</li>
+            <li>SQL</li>
+            <li>Java</li>  
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Data Science & ML</h3>
+          <ul>
+            <li>Data Analysis</li>
+            <li>Data Wrangling & ETL</li>
+            <li>Machine Learning</li>
+            <li>NLP</li>
+            <li>Deep Learning </li>
+            <li>Computer Vision</li>
+            <li>Transformers</li>
+            <li>Agentic AI</li>
+            <li>LLMs</li>
+            <li>Model Deployment</li>
+
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Frameworks & Libraries</h3>
+          <ul>
+            <li>TensorFlow</li>
+            <li>PyTorch</li>
+            <li>Pandas</li>
+            <li>NumPy</li>
+            <li>Matplotlib</li>
+            <li>Seaborn</li>
+            <li>OpenCV</li>
+            <li>Hugging Face</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Data Visualization & BI Tools</h3>
+          <ul>
+            <li>Power BI</li>
+            <li>Streamlit</li>
+            <li>Matplotlib</li>
+            <li>Seaborn</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Cloud & MLOps</h3>
+          <ul>
+            <li>Microsoft Azure</li>
+            <li>Google Cloud</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Software & Development Tools</h3>
+          <ul>
+            <li>GitHub</li>
+            <li>RStudio</li>
+            <li>Jupyter Notebook</li>
+            <li>Microsoft Office</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section">
+      <h2>Resume</h2>
+      <img 
+        src="Static/Nanda_AI_Resume.pdf" 
+        alt="Sai Nanda Vihari Mylavarabotla Resume" 
+        style="
+          width:100%;
+          max-width:900px;
+          display:block;
+          margin:auto;
+          border-radius:12px;
+          border: 1.5px solid #E5E7EB;
+          box-shadow: 0 4px 24px rgba(0, 123, 255, 0.10), 0 1.5px 8px rgba(0,0,0,0.06);
+          background: #fff;
+        "
+      />
+      <div style="text-align:center; margin-top:2rem;">
+        <a href="Static/Nanda_AI_Resume.pdf" download class="btn">Download Resume (PDF)</a>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <h2>Contact Me</h2>
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3>Let's Connect</h3>
+          <p>Feel free to reach out for collaborations or just a friendly hello</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <a href="msn.vihari17@gmail.com">msn.vihari17@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-linkedin"></i>
+              <a href="https://www.linkedin.com/in/sai-nanda-vihari/" target="_blank">LinkedIn</a>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-github"></i>
+              <a href="https://github.com/sainandavihari" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-area">
+          <div id="thankyou-message" style="display:none; text-align:center;">
+            Thank you for reaching out! I'll get back to you soon.<br>
+            <button id="fill-again-btn" class="btn" style="margin-top:1.5rem;">Fill again</button>
+          </div>
+          <form id="contactForm" class="contact-form" action="https://formspree.io/f/xdklnyay" method="POST">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required placeholder="Your name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="your.email@example.com" />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required placeholder="What's this about?" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Your message..."></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© <span id="year"></span> Nanda Vihari. All rights reserved.</p>
+    <p>Connect with me on LinkedIn or GitHub</p>
+  </footer>
+
+  <!-- JS for toggling experience/education cards and navigation -->
+  <script>
+    // Scroll to top on page load
+    window.onload = function() {
+      window.scrollTo(0, 0);
+      updateActiveSection();
+    }
+
+    // Update active section based on scroll position
+    function updateActiveSection() {
+      const sections = document.querySelectorAll('section');
+      const navLinks = document.querySelectorAll('.nav-link');
+      
+      let currentSection = '';
+      
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 100;
+        const sectionHeight = section.clientHeight;
+        if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
+          currentSection = section.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('data-section') === currentSection) {
+          link.classList.add('active');
+        }
+      });
+    }
+
+    // Add scroll event listener
+    window.addEventListener('scroll', updateActiveSection);
+
+    function initSectionToggle(listClass, contentClass) {
+      const items = document.querySelectorAll(listClass);
+      const contents = document.querySelectorAll(contentClass);
+
+      items.forEach((item, index) => {
+        item.addEventListener('click', () => {
+          items.forEach(i => i.classList.remove('active'));
+          contents.forEach(c => c.classList.remove('active'));
+
+          item.classList.add('active');
+          contents[index].classList.add('active');
+        });
+      });
+    }
+
+    // Toggle for experience roles
+    initSectionToggle('.role-list .role-item', '.experience-content');
+
+    // Toggle for education degrees
+    initSectionToggle('.degree-list .degree-item', '.education-content');
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Role rotator for header
+    const roles = [
+      "Data Analyst",
+      "Data Scientist",
+      "ML Engineer",
+      "Data Consultant",
+      "Prompt Engineer",
+      "BI Analyst",
+    ];
+    const groupSize = 3;
+    let groupIndex = 0;
+    const roleSpan = document.getElementById('role-rotator');
+    function showNextRoleGroup() {
+      const start = groupIndex * groupSize;
+      const group = roles.slice(start, start + groupSize);
+      roleSpan.textContent = group.join(' | ');
+      roleSpan.style.opacity = 1;
+      setTimeout(() => {
+        roleSpan.style.opacity = 0;
+        setTimeout(() => {
+          groupIndex = (groupIndex + 1) % Math.ceil(roles.length / groupSize);
+          showNextRoleGroup();
+        }, 400);
+      }, 1800);
+    }
+    if (roleSpan) {
+      roleSpan.style.transition = 'opacity 0.4s';
+      showNextRoleGroup();
+    }
+
+    // Hamburger menu toggle
+    const hamburger = document.getElementById('hamburger-menu');
+    const navLinks = document.getElementById('nav-links');
+    const mobileNav = document.getElementById('mobile-nav');
+    function toggleMobileNav() {
+      if (mobileNav.style.display === 'block') {
+        mobileNav.style.display = 'none';
+        hamburger.classList.remove('open');
+      } else {
+        mobileNav.style.display = 'block';
+        hamburger.classList.add('open');
+      }
+    }
+    hamburger.addEventListener('click', toggleMobileNav);
+    // Hide mobile nav on link click
+    mobileNav.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileNav.style.display = 'none';
+        hamburger.classList.remove('open');
+      });
+    });
+
+    document.getElementById('contactForm').addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const form = e.target;
+      const data = new FormData(form);
+      const action = form.action;
+      const thankyou = document.getElementById('thankyou-message');
+      fetch(action, {
+        method: 'POST',
+        body: data,
+        headers: { 'Accept': 'application/json' }
+      }).then(response => {
+        if (response.ok) {
+          form.style.display = 'none';
+          thankyou.style.display = 'block';
+        } else {
+          thankyou.textContent = 'Oops! There was a problem submitting your form.';
+          thankyou.style.display = 'block';
+        }
+      }).catch(error => {
+        thankyou.textContent = 'Oops! There was a problem submitting your form.';
+        thankyou.style.display = 'block';
+      });
+    });
+
+    document.getElementById('fill-again-btn').onclick = function() {
+      document.getElementById('thankyou-message').style.display = 'none';
+      const form = document.getElementById('contactForm');
+      form.reset();
+      form.style.display = 'block';
+    };
+  </script>
+
+</body>
+</html>
